@@ -1,0 +1,14 @@
+POST /fcm/send HTTP/1.1
+Host: fcm.googleapis.com
+Content-Type: application/json
+Authorization: key=AAAAtuvtQeM:APA91bFG5Kl_y1o84zvKHCl78wheZSwTnl4BwKGNoASKN9zjLGkodUvyy_pZDhS4iWsjZ8myKuMFLz9ZcTRnTZGZNK-xAsJNBHa0rWzD3NA0QUb8WTDpchCLB8FlnY50T_kcBJ8MXY56
+
+{
+  "notification": {
+    "title": "New chat message!",
+    "body": "There is a new message in FriendlyChat",
+    "icon": "/images/profile_placeholder.png",
+    "click_action": "http://localhost:5000"
+  },
+  "to":"d2hZ9HlpC6E:APA91bE2hj9Vb55CdNqxAHTit8NYF"
+}
